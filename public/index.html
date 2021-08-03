@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Planner</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="main.css"
+
+</head>
+<body>
+    <h1 class="title">UPCOMING WEDDINGS</h1>
+    
+    <div class="clients">
+        <h2 class="client-list-title">Client Names</h2>
+        <ul class="client-list">
+            <li class="list-name active-list">Client 1</li>
+            <li class="list-name">Client 2</li>
+            <li class="list-name">Client 3</li>
+        </ul>
+
+        <form action="">
+            <input 
+            type="text"
+            class="add client"
+            placeholder="insert client name"
+            aria label="insert client name"
+            />
+            <button class="btn list">ADD</button>
+        </form>
+    </div>
+
+    <div class="wedding-information"></div>
+    <div class="todo-header">
+        <h2 class="list-title">Client 1</h2>
+        <p class="days-remaining">30 days until the wedding</p>
+        </div>
+
+        <div class="todo-body">
+            <div class="tasks">
+                <div class="task">
+                    <input type="checkbox"
+                    id="task-1"
+                    />
+                    <label for="task-1">
+                        <span class="custom-checkbox"></span>
+                        Schedule Phone Call With Client
+                    </label>
+                </div>
+                <div class="task">
+                    <input type="checkbox"
+                    id="task-2"
+                    />  
+                    <label for="task-2">
+                        <span class="custom-checkbox"></span>
+                        Acquire the Schedule of Events
+                    </label>
+                </div>
+                <div class="task">
+                    <input type="checkbox"
+                    id="task-3"
+                    />
+                    <label for="task-3">
+                        <span class="custom-checkbox"></span>
+                        Plan out shots on wedding day
+                    </label>
+                </div>
+            </div>
+            <div class="new-task-creator"></div>
+            <form action="">
+                <input 
+                type="text"
+                class="add client"
+                placeholder="add new task"
+                aria label="add new task"
+                />
+                <button class="btn task">ADD</button>
+            </form>
+            <div class="delete-tasks"></div>
+            <button class="btn delete">Clear completed tasks</button>
+            <button class="btn delete">Project Completed</button>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
