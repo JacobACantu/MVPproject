@@ -9,17 +9,17 @@
     href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
     rel="stylesheet"/>
     <link rel="stylesheet" href="main.css"
-
+    <script defer src="script.js"></script>
 </head>
 <body>
     <h1 class="title">UPCOMING WEDDINGS</h1>
     
     <div class="clients">
         <h2 class="client-list-title">Client Names</h2>
-        <ul class="client-list">
-            <li class="list-name active-list">Client 1</li>
+        <ul class="client-list" data lists>
+            <!-- <li class="list-name active-list">Client 1</li>
             <li class="list-name">Client 2</li>
-            <li class="list-name">Client 3</li>
+            <li class="list-name">Client 3</li> -->
         </ul>
 
         <form action="">
@@ -29,14 +29,14 @@
             placeholder="insert client name"
             aria label="insert client name"
             />
-            <button class="btn list">ADD</button>
+            <button class="btn create">+</button>
         </form>
     </div>
 
-    <div class="wedding-information"></div>
+    <div class="wedding-information">
     <div class="todo-header">
         <h2 class="list-title">Client 1</h2>
-        <p class="days-remaining">30 days until the wedding</p>
+        <p class="days-remaining">3 tasks remaining</p>
         </div>
 
         <div class="todo-body">
@@ -77,12 +77,12 @@
                 placeholder="add new task"
                 aria label="add new task"
                 />
-                <button class="btn task">ADD</button>
+                <button class="btn create task">+</button>
             </form>
-            <div class="delete-tasks"></div>
-            <button class="btn delete">Clear completed tasks</button>
-            <button class="btn delete">Project Completed</button>
-
+            <div class="delete-tasks">
+            <button class="btn delete">CLEAR</button>
+            <button class="btn delete">DELETE</button>
+            </div>
 
         </div>
 

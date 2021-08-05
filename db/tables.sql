@@ -13,6 +13,5 @@ CREATE TABLE client_info (
 CREATE TABLE notes (
     wedding_day INTEGER,
     wedding_month INTEGER,
-    city VARCHAR(255),
-    email VARCHAR
+    city VARCHAR(255)
 );
